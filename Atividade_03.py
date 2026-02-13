@@ -45,3 +45,5 @@ print("Melhor valor da função:", study.best_value) # [f(x)]^2 que é comparado
 print("Trials executados nessa rodada:", trials)
 print("Total de trials acumulados no banco:", len(study.trials))
 print("Tempo de execução:", tempo_total, "segundos")
+
+#Teste
