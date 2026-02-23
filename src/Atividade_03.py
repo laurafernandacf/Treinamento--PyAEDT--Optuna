@@ -41,7 +41,6 @@ x_best = study.best_params["x"]
 print("\nRESULTADO")
 print("Raiz encontrada:", x_best)
 print("f(x) =", x_best**2 + 6*x_best + 5)
-print("Melhor valor da função:", study.best_value) # [f(x)]^2 que é comparado com epsilon
 print("Trials executados nessa rodada:", trials)
 print("Total de trials acumulados no banco:", len(study.trials))
 print("Tempo de execução:", tempo_total, "segundos")
