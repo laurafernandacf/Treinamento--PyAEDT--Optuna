@@ -1,4 +1,3 @@
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import tempfile
@@ -26,14 +25,14 @@ hfss.modeler.model_units = "mm"
 p = hfss.modeler.primitives
 
 
-hfss["Wpatch"] = "27.6056mm"
+hfss["Wpatch"] = "26.5407mm"
 hfss["Wsub"] = "Wpatch*1.5"
-hfss["Lpatch"] = "19.2896mm"
+hfss["Lpatch"] = "19.4396mm"
 hfss["Lsub"] = "Lpatch*1.5"
 hfss["Hsub"] = "1.65mm"
 hfss["Slot"] = "1mm"
-hfss["Yo"] = "5.9733mm"
-hfss["Wfeed"] = "2.1000mm"
+hfss["Yo"] = "5.3611mm"
+hfss["Wfeed"] = "2.8090mm"
 
 
 substract = p.create_box(
