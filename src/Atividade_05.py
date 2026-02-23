@@ -9,10 +9,6 @@ import sqlite3
 from pyaedt import generate_unique_name
 from ansys.aedt.core import Hfss
 
-# ===============================
-# INÍCIO
-# ===============================
-
 start_time = time.time()
 
 tmpfold = tempfile.gettempdir()
@@ -30,10 +26,6 @@ hfss = Hfss(
 hfss.modeler.model_units = "mm"
 p = hfss.modeler.primitives
 
-# ===============================
-# VARIÁVEIS PARAMÉTRICAS
-# ===============================
-
 hfss["Wpatch"] = "27.66mm"
 hfss["Wsub"] = "Wpatch*1.5"
 hfss["Lpatch"] = "19.6mm"
@@ -42,10 +34,6 @@ hfss["Hsub"] = "1.65mm"
 hfss["Slot"] = "1mm"
 hfss["Yo"] = "5.3mm"
 hfss["Wfeed"] = "2.4mm"
-
-# ===============================
-# GEOMETRIA
-# ===============================
 
 substract = p.create_box(
     ["-Wsub/2", "-Lsub/2", "0"],
@@ -123,9 +111,6 @@ hfss.lumped_port(
 
 hfss.assign_finite_conductivity("Patch")
 
-# ===============================
-# SETUP
-# ===============================
 
 setup = hfss.create_setup("MySetup")
 setup.props["Frequency"] = "3.5GHz"
@@ -143,11 +128,8 @@ hfss.create_linear_step_sweep(
     save_rad_fields=True
 )
 
-# ===============================
-# FUNÇÃO DE BANDWIDTH
-# ===============================
-
-def calcular_metricas(solution_data, limite_db=-18):
+# Função para calcular largura de banda de operação -10 db
+def calcular_banda(solution_data, limite_db=-10):
 
     freq, s11 = solution_data.get_expression_data()
 
@@ -180,9 +162,6 @@ def calcular_metricas(solution_data, limite_db=-18):
 
     return bw, f_res
 
-# ===============================
-# OBJECTIVE DO OPTUNA
-# ===============================
 
 def objective(trial):
 
@@ -207,9 +186,8 @@ def objective(trial):
     if solution_data is None:
         return 0.0
 
-    bw, f_res = calcular_metricas(solution_data)
+    bw, f_res = calcular_banda(solution_data)
 
-    # 🎯 Penalização por deslocamento da frequência alvo
     f_target = 3.5
     penalty = abs(f_res - f_target)
 
@@ -224,9 +202,6 @@ def objective(trial):
 
     return score
 
-# ===============================
-# OTIMIZAÇÃO
-# ===============================
 
 study = optuna.create_study(study_name="patch_optimization", direction="maximize", storage="sqlite:///patch_optimization.db", load_if_exists=True)
 study.optimize(objective, n_trials=20)

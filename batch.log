@@ -201,3 +201,27 @@ Project directory: C:\Users\Administrator\Documents\Ansoft
         [info] GRPC server running on port: 50051. 
 -- Message Window --
 Stopping Batch Run: 1:05:01 AM  Feb 22, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:29:35 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+      AntennaPatch_Atividade05 (C:/Users/ADMINI~1/AppData/Local/Temp/Antenna_76Q591/)
+        HFSS_N42 (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (12:30:27 AM  Feb 23, 2026)
+          [warning] Adaptive Passes did not converge based on specified criteria. (12:30:47 AM  Feb 23, 2026)
+          [info] A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (12:30:47 AM  Feb 23, 2026)
+          [info] Discrete frequency sweep complete. (12:32:01 AM  Feb 23, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (12:32:01 AM  Feb 23, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (12:32:02 AM  Feb 23, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (12:32:02 AM  Feb 23, 2026)
+-- Message Window --
+Stopping Batch Run: 12:34:12 AM  Feb 23, 2026

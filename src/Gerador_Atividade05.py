@@ -8,7 +8,6 @@ import time
 from pyaedt import generate_unique_name
 from ansys.aedt.core import Hfss
 from ansys.aedt.core.modeler.advanced_cad.stackup_3d import Stackup3D
-from win32com.client import constants
 
 
 tmpfold = tempfile.gettempdir()
@@ -26,22 +25,16 @@ hfss = Hfss(
 hfss.modeler.model_units = "mm"
 p = hfss.modeler.primitives
 
-# ===============================
-# VARIÁVEIS PARAMÉTRICAS
-# ===============================
 
-hfss["Wpatch"] = "26.0357008724318mm"
+hfss["Wpatch"] = "27.66mm"
 hfss["Wsub"] = "Wpatch*1.5"
-hfss["Lpatch"] = "18.1647836879411mm"
+hfss["Lpatch"] = "19.6mm"
 hfss["Lsub"] = "Lpatch*1.5"
 hfss["Hsub"] = "1.65mm"
 hfss["Slot"] = "1mm"
-hfss["Yo"] = "5.07680822872882mm"
-hfss["Wfeed"] = "2.77672857023525mm"
+hfss["Yo"] = "5.3mm"
+hfss["Wfeed"] = "2.4mm"
 
-# ===============================
-# GEOMETRIA
-# ===============================
 
 substract = p.create_box(
     ["-Wsub/2", "-Lsub/2", "0"],
@@ -119,9 +112,6 @@ hfss.lumped_port(
 
 hfss.assign_finite_conductivity("Patch")
 
-# ===============================
-# SETUP
-# ===============================
 
 setup = hfss.create_setup("MySetup")
 setup.props["Frequency"] = "3.5GHz"
@@ -221,39 +211,3 @@ def print_tempo_execucao(start, mensagem="Tempo total"):
     elapsed = time.time() - start
     minutos, segundos = divmod(elapsed, 60)
     print(f"{mensagem}: {int(minutos)} min {segundos:.2f} s")
-    
-# Plotando comparação - manual x script
-
-# Função para achar a coluna de S11 (robusta para HFSS)
-def col_startswith(df, text):
-    for col in df.columns:
-        if col.startswith(text):
-            return col
-    raise ValueError(f"Coluna iniciando com '{text}' não encontrada")
-
-# Leitura dos arquivos
-df_manual = pd.read_csv("manual.csv")
-df_script = pd.read_csv("script.csv")
-
-# Frequência
-freq_manual = df_manual["Freq [GHz]"]
-freq_script = df_script["Freq [GHz]"]
-
-# S11
-s11_manual = df_manual[col_startswith(df_manual, "dB(S")]
-s11_script = df_script[col_startswith(df_script, "dB(S")]
-
-# Plot único com duas curvas
-plt.figure(figsize=(8, 5))
-
-plt.plot(freq_manual, s11_manual, label="S11 Manual")
-plt.plot(freq_script, s11_script, label="S11 Script")
-
-plt.xlabel("Frequência (GHz)")
-plt.ylabel("S11 (dB)")
-plt.title("Comparação S11 – Manual x Script")
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-
-plt.show()
