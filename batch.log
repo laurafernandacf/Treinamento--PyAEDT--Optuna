@@ -2,215 +2,202 @@
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 3:59:36 PM  Feb 13, 2026
+Starting Batch Run: 9:20:29 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project4, Design:HFSS_8ZI (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:00:03 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:07 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:07 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:07 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:07 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:07 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:07 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:08 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:08 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:10 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:10 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:13 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:13 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:15 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:15 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:18 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:18 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:20 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_06V6U8', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:00:20 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (04:01:36 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Discrete frequency sweep complete. (04:01:36 PM  Feb 13, 2026)
-[info] Project:Project4, Design:HFSS_8ZI (Modal Network), Normal completion of simulation on server: Local Machine. (04:01:36 PM  Feb 13, 2026)
-[warning] Project:Project4, Design:HFSS_8ZI (Modal Network), The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (04:01:37 PM  Feb 13, 2026)
-Stopping Batch Run: 4:01:50 PM  Feb 13, 2026
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 9:22:29 PM  Feb 21, 2026
  
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 4:02:02 PM  Feb 13, 2026
+Starting Batch Run: 9:23:49 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project5, Design:HFSS_RQK (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:02:17 PM  Feb 13, 2026)
-[error] Project:Project5, Design:HFSS_RQK (Modal Network), Parts NewObject_1K38IY and NewObject_FRP79C intersect. (04:02:19 PM  Feb 13, 2026)
-[error] Project:Project5, Design:HFSS_RQK (Modal Network), Simulation completed with execution error on server: Local Machine. (04:02:20 PM  Feb 13, 2026)
-[error] Project:Project5, Design:HFSS_RQK (Modal Network), Script macro error: Simulation for Project5 : HFSS_RQK has failed with execution error.  (04:02:20 PM  Feb 13, 2026)
-[warning] Project:Project5, Design:HFSS_RQK (Modal Network), The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (04:02:20 PM  Feb 13, 2026)
-[error] Project:Project5, Design:HFSS_RQK (Modal Network), Script macro error: No trace data for quantity: dB(S(1,1)) (04:02:20 PM  Feb 13, 2026)
-Stopping Batch Run: 4:02:33 PM  Feb 13, 2026
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 9:25:48 PM  Feb 21, 2026
  
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 4:02:44 PM  Feb 13, 2026
+Starting Batch Run: 9:33:34 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project6, Design:HFSS_650 (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:02:59 PM  Feb 13, 2026)
-[error] Project:Project6, Design:HFSS_650 (Modal Network), Parts NewObject_EDCPIL and NewObject_RVUTP8 intersect. (04:03:02 PM  Feb 13, 2026)
-[error] Project:Project6, Design:HFSS_650 (Modal Network), Simulation completed with execution error on server: Local Machine. (04:03:02 PM  Feb 13, 2026)
-[error] Project:Project6, Design:HFSS_650 (Modal Network), Script macro error: Simulation for Project6 : HFSS_650 has failed with execution error.  (04:03:02 PM  Feb 13, 2026)
-[warning] Project:Project6, Design:HFSS_650 (Modal Network), The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (04:03:03 PM  Feb 13, 2026)
-[error] Project:Project6, Design:HFSS_650 (Modal Network), Script macro error: No trace data for quantity: dB(S(1,1)) (04:03:03 PM  Feb 13, 2026)
-Stopping Batch Run: 4:03:13 PM  Feb 13, 2026
+The project 'Patch_Optuna' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'Patch_Optuna' has been edited and/or solved. Do you want to save the changes?
+      Patch_Optuna (C:/Users/Administrator/Documents/Ansoft/)
+        HFSS_3ZN (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (09:33:51 PM  Feb 21, 2026)
+          [warning] Adaptive Passes did not converge based on specified criteria. (09:34:32 PM  Feb 21, 2026)
+          [info] A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (09:34:32 PM  Feb 21, 2026)
+          [info] Discrete frequency sweep complete. (09:35:45 PM  Feb 21, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (09:35:45 PM  Feb 21, 2026)
+-- Message Window --
+Stopping Batch Run: 9:46:22 PM  Feb 21, 2026
  
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 4:03:27 PM  Feb 13, 2026
+Starting Batch Run: 9:46:24 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project7, Design:HFSS_V0X (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:03:42 PM  Feb 13, 2026)
-[error] Project:Project7, Design:HFSS_V0X (Modal Network), Parts NewObject_CRY4ZT and NewObject_DX1P26 intersect. (04:03:45 PM  Feb 13, 2026)
-[error] Project:Project7, Design:HFSS_V0X (Modal Network), Simulation completed with execution error on server: Local Machine. (04:03:45 PM  Feb 13, 2026)
-[error] Project:Project7, Design:HFSS_V0X (Modal Network), Script macro error: Simulation for Project7 : HFSS_V0X has failed with execution error.  (04:03:45 PM  Feb 13, 2026)
-[warning] Project:Project7, Design:HFSS_V0X (Modal Network), The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (04:03:45 PM  Feb 13, 2026)
-[error] Project:Project7, Design:HFSS_V0X (Modal Network), Script macro error: No trace data for quantity: dB(S(1,1)) (04:03:45 PM  Feb 13, 2026)
-Stopping Batch Run: 4:03:58 PM  Feb 13, 2026
+The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+      Patch_Optuna_Teste (C:/Users/Administrator/Documents/Ansoft/)
+        HFSS_FUC (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (09:46:41 PM  Feb 21, 2026)
+          [warning] Adaptive Passes did not converge based on specified criteria. (09:47:00 PM  Feb 21, 2026)
+          [info] A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (09:47:00 PM  Feb 21, 2026)
+          [info] Discrete frequency sweep complete. (09:48:13 PM  Feb 21, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (09:48:13 PM  Feb 21, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (09:48:14 PM  Feb 21, 2026)
+-- Message Window --
+Stopping Batch Run: 9:50:13 PM  Feb 21, 2026
  
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 4:04:10 PM  Feb 13, 2026
+Starting Batch Run: 9:50:13 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project8, Design:HFSS_6GW (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:04:25 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:28 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:28 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:28 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:28 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:28 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:28 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:29 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:29 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:31 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:31 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:34 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:34 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:36 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:36 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:39 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:39 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:41 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_PR4OPB', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:04:41 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (04:05:56 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Discrete frequency sweep complete. (04:05:56 PM  Feb 13, 2026)
-[info] Project:Project8, Design:HFSS_6GW (Modal Network), Normal completion of simulation on server: Local Machine. (04:05:56 PM  Feb 13, 2026)
-[warning] Project:Project8, Design:HFSS_6GW (Modal Network), The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (04:05:57 PM  Feb 13, 2026)
-Stopping Batch Run: 4:06:09 PM  Feb 13, 2026
  
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 4:14:06 PM  Feb 13, 2026
+Starting Batch Run: 10:01:17 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project9, Design:HFSS_IVS (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:14:21 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:24 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:24 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:24 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:24 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:24 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:24 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:24 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:24 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:27 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:27 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:29 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:29 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:32 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:32 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:34 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:34 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:37 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_IGB6VX', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:14:37 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), A discrete frequency sweep with 201 point(s) has been started using HFSS - Solving Distributed. (04:16:59 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Discrete frequency sweep complete. (04:16:59 PM  Feb 13, 2026)
-[info] Project:Project9, Design:HFSS_IVS (Modal Network), Normal completion of simulation on server: Local Machine. (04:16:59 PM  Feb 13, 2026)
-[warning] Project:Project9, Design:HFSS_IVS (Modal Network), The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (04:17:00 PM  Feb 13, 2026)
-Stopping Batch Run: 4:17:13 PM  Feb 13, 2026
+The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+      Patch_Optuna_Teste (C:/Users/Administrator/Documents/Ansoft/)
+        HFSS_0O2 (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (10:01:59 PM  Feb 21, 2026)
+          [warning] Adaptive Passes did not converge based on specified criteria. (10:02:18 PM  Feb 21, 2026)
+          [info] A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (10:02:18 PM  Feb 21, 2026)
+          [info] Discrete frequency sweep complete. (10:03:31 PM  Feb 21, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (10:03:32 PM  Feb 21, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (10:03:32 PM  Feb 21, 2026)
+-- Message Window --
+Stopping Batch Run: 10:06:38 PM  Feb 21, 2026
+25.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 10:06:28 PM  Feb 21, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50052. 
+-- Message Window --
+Stopping Batch Run: 10:14:32 PM  Feb 21, 2026
  
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 4:17:25 PM  Feb 13, 2026
+Starting Batch Run: 10:17:23 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project10, Design:HFSS_Z8Z (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:17:40 PM  Feb 13, 2026)
-[error] Project:Project10, Design:HFSS_Z8Z (Modal Network), Parts NewObject_XKT5OG and NewObject_GDB425 intersect. (04:17:43 PM  Feb 13, 2026)
-[error] Project:Project10, Design:HFSS_Z8Z (Modal Network), Simulation completed with execution error on server: Local Machine. (04:17:43 PM  Feb 13, 2026)
-[error] Project:Project10, Design:HFSS_Z8Z (Modal Network), Script macro error: Simulation for Project10 : HFSS_Z8Z has failed with execution error.  (04:17:43 PM  Feb 13, 2026)
-[warning] Project:Project10, Design:HFSS_Z8Z (Modal Network), The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (04:17:43 PM  Feb 13, 2026)
-[error] Project:Project10, Design:HFSS_Z8Z (Modal Network), Script macro error: No trace data for quantity: dB(S(1,1)) (04:17:43 PM  Feb 13, 2026)
-Stopping Batch Run: 4:17:56 PM  Feb 13, 2026
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 10:33:17 PM  Feb 21, 2026
  
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 4:18:08 PM  Feb 13, 2026
+Starting Batch Run: 10:36:09 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project11, Design:HFSS_98T (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:18:23 PM  Feb 13, 2026)
-[error] Project:Project11, Design:HFSS_98T (Modal Network), Parts NewObject_48UOR0 and NewObject_MP5BRF intersect. (04:18:25 PM  Feb 13, 2026)
-[error] Project:Project11, Design:HFSS_98T (Modal Network), Simulation completed with execution error on server: Local Machine. (04:18:26 PM  Feb 13, 2026)
-[error] Project:Project11, Design:HFSS_98T (Modal Network), Script macro error: Simulation for Project11 : HFSS_98T has failed with execution error.  (04:18:26 PM  Feb 13, 2026)
-[warning] Project:Project11, Design:HFSS_98T (Modal Network), The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (04:18:26 PM  Feb 13, 2026)
-[error] Project:Project11, Design:HFSS_98T (Modal Network), Script macro error: No trace data for quantity: dB(S(1,1)) (04:18:26 PM  Feb 13, 2026)
-Stopping Batch Run: 4:18:39 PM  Feb 13, 2026
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 10:52:11 PM  Feb 21, 2026
  
 Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
 Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
 Non Graphical Mode: No Project??
-Starting Batch Run: 4:18:51 PM  Feb 13, 2026
+Starting Batch Run: 11:01:15 PM  Feb 21, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
-[info] GRPC server running on port: 50051.
-
-[warning] Project:Project12, Design:HFSS_JXW (Modal Network), Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (04:19:06 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:09 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:09 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:09 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:09 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:09 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Port refinement, process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:09 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:10 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:10 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:12 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:12 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:15 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:15 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:17 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:17 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:19 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:19 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:22 PM  Feb 13, 2026)
-[info] Project:Project12, Design:HFSS_JXW (Modal Network), Solving adaptive frequency ..., process hf3d: '1' conductors touch lumped port 'Port_ERQ33Z', typically a lumped port contains 2 conductors.  Please verify conducting boundaries and objects are correctly assigned and touch the port.  If a Radiation boundary touches the port and it is desired for use during the port solution, select 'Use Radiation Boundary on Ports' under the Advanced tab in the Solution Setup. (04:19:22 PM  Feb 13, 2026)
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 11:17:16 PM  Feb 21, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 11:29:47 PM  Feb 21, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 12:01:38 AM  Feb 22, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:18:30 AM  Feb 22, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+      AntennaPatch_Atividade05 (C:/Users/ADMINI~1/AppData/Local/Temp/Antenna_TLQ55G/)
+        HFSS_YXO (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (12:19:06 AM  Feb 22, 2026)
+          [warning] Adaptive Passes did not converge based on specified criteria. (12:19:24 AM  Feb 22, 2026)
+          [info] A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (12:19:24 AM  Feb 22, 2026)
+          [info] Discrete frequency sweep complete. (12:20:38 AM  Feb 22, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (12:20:38 AM  Feb 22, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (12:20:38 AM  Feb 22, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (12:20:39 AM  Feb 22, 2026)
+-- Message Window --
+Stopping Batch Run: 12:25:13 AM  Feb 22, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:33:17 AM  Feb 22, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 1:05:01 AM  Feb 22, 2026

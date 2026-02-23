@@ -4,7 +4,6 @@ import optuna
 import time
 from optuna.samplers import TPESampler, RandomSampler
 
-
 # Função objetivo
 def objective(trial):
     x = trial.suggest_float("x", -10, 10)
@@ -26,8 +25,8 @@ def run_study(sampler, nome_sampler, epsilon, max_trials=10000):
         study.optimize(objective, n_trials=1)
         trials += 1 # Aumentando o valor do contador a cada tentativa
 
-        if study.best_value < epsilon: # Se o valor calculado pelo sampler for menor e estiver dentro do critério de parada, sai do while e encerra a busca
-            break
+        if study.best_value < epsilon: # Se o valor calculado pelo sampler for menor e 
+            break # estiver dentro do critério de parada, sai do while e encerra a busca
 
     end_time = time.time()
     tempo_total = end_time - start_time

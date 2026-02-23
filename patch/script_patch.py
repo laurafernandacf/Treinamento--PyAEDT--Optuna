@@ -131,8 +131,6 @@ def SaveAnalyseSetup(nameFolder = "AntennaPatch.aedt",setup = "MySetup"):
 
 # Chamando as funções
 
-# SETUP:
-
 # General
 SingleFrequency("3.5GHz", 2, 2, 30, 0.01)
 

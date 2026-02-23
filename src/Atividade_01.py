@@ -12,4 +12,6 @@ study.optimize(objective, n_trials=1000)
 x_best = study.best_params["x"]
 
 print("Raiz encontrada:", x_best)
-print("f(x) =", x_best**2 + 6*x_best + 5)
+print("f(x) =", pow(x_best,2) + 6*x_best + 5)
+
+

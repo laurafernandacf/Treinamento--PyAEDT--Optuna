@@ -147,8 +147,9 @@ hfss.create_linear_step_sweep(
 # FUNÇÃO DE BANDWIDTH
 # ===============================
 
-def calcular_metricas(solution_data, limite_db=-18):
+def calcular_bandwidth(solution_data, limite_db=-10):
 
+    # Pega dados corretamente (compatível com retorno tuple)
     freq, s11 = solution_data.get_expression_data()
 
     import numpy as np
@@ -158,27 +159,23 @@ def calcular_metricas(solution_data, limite_db=-18):
     s11 = np.array(s11)
 
     df = pd.DataFrame({
-        "Frequency": freq,
+        "Frequency [GHz]": freq,
         "S11": s11
     })
 
-    df = df[(df["Frequency"] >= 2) & (df["Frequency"] <= 4)]
+    # Limita à faixa exigida (2–4 GHz)
+    df = df[(df["Frequency [GHz]"] >= 2) & (df["Frequency [GHz]"] <= 4)]
 
     if df.empty:
-        return 0.0, 0.0
-
-    # Frequência de ressonância (mínimo S11)
-    idx_min = df["S11"].idxmin()
-    f_res = df.loc[idx_min, "Frequency"]
+        return 0.0
 
     faixa = df[df["S11"] <= limite_db]
 
     if faixa.empty:
-        bw = 0.0
-    else:
-        bw = float(faixa["Frequency"].max() - faixa["Frequency"].min())
+        return 0.0
 
-    return bw, f_res
+    return float(faixa["Frequency [GHz]"].max() -
+                 faixa["Frequency [GHz]"].min())
 
 # ===============================
 # OBJECTIVE DO OPTUNA
@@ -197,6 +194,7 @@ def objective(trial):
     hfss["Wfeed"] = f"{Wfeed}mm"
 
     hfss.modeler.refresh_all_ids()
+
     hfss.analyze_setup("MySetup")
 
     solution_data = hfss.post.get_solution_data(
@@ -207,22 +205,11 @@ def objective(trial):
     if solution_data is None:
         return 0.0
 
-    bw, f_res = calcular_metricas(solution_data)
+    bandwidth = calcular_bandwidth(solution_data)
 
-    # 🎯 Penalização por deslocamento da frequência alvo
-    f_target = 3.5
-    penalty = abs(f_res - f_target)
+    print(f"Trial {trial.number} → BW = {bandwidth:.4f} GHz ({bandwidth*1000:.2f})  MHz")
 
-    score = bw - 0.5 * penalty  # peso ajustável
-
-    print(
-        f"Trial {trial.number} → "
-        f"BW={bw:.4f} GHz | "
-        f"f_res={f_res:.3f} GHz | "
-        f"Score={score:.4f}"
-    )
-
-    return score
+    return bandwidth
 
 # ===============================
 # OTIMIZAÇÃO
