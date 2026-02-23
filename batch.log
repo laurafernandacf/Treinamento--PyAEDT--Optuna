@@ -233,3 +233,238 @@ Starting Batch Run: 12:34:13 AM  Feb 23, 2026
 Running as user : WIN-96S86466LF1\Administrator
 Temp directory: C:\temp
 Project directory: C:\Users\Administrator\Documents\Ansoft
+The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50052. 
+        [info] The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+      AntennaPatch_Atividade05 (C:/Users/ADMINI~1/AppData/Local/Temp/Antenna_XAL75Z/)
+        HFSS_RWB (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (12:34:31 AM  Feb 23, 2026)
+          [warning] Adaptive Passes did not converge based on specified criteria. (12:34:50 AM  Feb 23, 2026)
+          [info] A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (12:34:50 AM  Feb 23, 2026)
+          [info] Discrete frequency sweep complete. (12:36:03 AM  Feb 23, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (12:36:03 AM  Feb 23, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (12:36:03 AM  Feb 23, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (12:36:04 AM  Feb 23, 2026)
+-- Message Window --
+Stopping Batch Run: 12:51:58 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:52:01 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 1:00:13 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:04:41 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+      Patch_Optuna_Teste (C:/Users/Administrator/Documents/Ansoft[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+[warning] Electronics Desktop Student cannot be closed right now because it is being used by another application, script or extension wizard.
+
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:09:12 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+      Patch_Optuna_Teste (C:/Users/Administrator/Documents/AnsoftThe project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50052. 
+        [info] The project 'Patch_Optuna_Teste' has been edited and/or solved. Do you want to save the changes?
+      Patch_Optuna_Teste (C:/Users/Administrator/Documents/Ansoft/)
+        HFSS_4PY (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:12:55 AM  Feb 23, 2026)
+          [error] Maximum licensed number of demo users already reached.  (01:12:59 AM  Feb 23, 2026)
+          [error] Simulation was terminated by license error. (01:12:59 AM  Feb 23, 2026)
+          [error] Script macro error: Simulation for Patch_Optuna_Teste : HFSS_4PY : MySetup has failed with execution error.  (01:12:59 AM  Feb 23, 2026)
+          [warning] The variable  'Phase' doesn't have an associated sweep and is excluded from the definition of trace. (01:12:59 AM  Feb 23, 2026)
+          [error] Script macro error: No trace data for quantity: dB(S(1,1)) (01:12:59 AM  Feb 23, 2026)
+-- Message Window --
+Stopping Batch Run: 1:14:02 AM  Feb 23, 2026
+025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:13:58 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+      AntennaPatch_Atividade05 (C:/Users/ADMINI~1/AppData/Local/Temp/Antenna_EMWYAW/)
+        HFSS_P1L (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:14:15 AM  Feb 23, 2026)
+          [error] Maximum licensed number of demo users already reached.  (01:14:19 AM  Feb 23, 2026)
+          [error] Simulation was terminated by license error. (01:14:19 AM  Feb 23, 2026)
+          [error] Script macro error: Simulation for AntennaPatch_Atividade05 : HFSS_P1L : MySetup has failed with execution error.  (01:14:19 AM  Feb 23, 2026)
+-- Message Window --
+Stopping Batch Run: 1:18:58 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:22:31 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 1:25:49 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:30:35 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 1:33:34 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:34:55 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+        [info] The project 'AntennaPatch_Atividade05' has been edited and/or solved. Do you want to save the changes?
+      AntennaPatch_Atividade05 (C:/Users/ADMINI~1/AppData/Local/Temp/Antenna_0YN2I9/)
+        HFSS_8SF (Modal Network)
+          [warning] Renormalizing the port impedance will not impact the field results if the 'Include Port Post Processing Effects' is disabled in Edit Sources. (01:35:25 AM  Feb 23, 2026)
+          [warning] Adaptive Passes did not converge based on specified criteria. (01:35:44 AM  Feb 23, 2026)
+          [info] A discrete frequency sweep with 101 point(s) has been started using HFSS - Solving Distributed. (01:35:44 AM  Feb 23, 2026)
+          [info] Discrete frequency sweep complete. (01:36:57 AM  Feb 23, 2026)
+          [info] Normal completion of simulation on server: Local Machine. (01:36:57 AM  Feb 23, 2026)
+-- Message Window --
+Stopping Batch Run: 1:48:05 AM  Feb 23, 2026
+025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:48:00 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50052. 
+-- Message Window --
+Stopping Batch Run: 1:50:50 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 2:01:06 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 2:03:48 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 2:07:47 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 2:10:39 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 2:16:27 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 2:21:14 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 2:29:11 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 2:34:15 AM  Feb 23, 2026
+ 
+Ansys Electronics Desktop Student Version 2025.2.0, Build: 2025-05-16 12:03:40
+Location: C:\Program Files\ANSYS Inc\ANSYS Student\v252\AnsysEM\ansysedtsv.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 2:38:59 AM  Feb 23, 2026
+Running as user : WIN-96S86466LF1\Administrator
+Temp directory: C:\temp
+Project directory: C:\Users\Administrator\Documents\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50051. 
+-- Message Window --
+Stopping Batch Run: 2:44:30 AM  Feb 23, 2026

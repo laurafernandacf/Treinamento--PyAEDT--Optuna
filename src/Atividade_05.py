@@ -19,7 +19,7 @@ hfss = Hfss(
     version="2025.2",
     project="Patch_Optuna_Teste.aedt",
     solution_type="Modal",
-    new_desktop_session=True,
+    new_desktop_session=False,
     student_version=True
 )
 
@@ -122,7 +122,7 @@ hfss.create_linear_step_sweep(
     start_frequency=2,
     stop_frequency=4,
     step_size=0.02,
-    sweep_type="Discrete",
+    sweep_type="Interpolating",
     name="Sweep",
     save_fields=True,
     save_rad_fields=True
@@ -132,9 +132,6 @@ hfss.create_linear_step_sweep(
 def calcular_banda(solution_data, limite_db=-10):
 
     freq, s11 = solution_data.get_expression_data()
-
-    import numpy as np
-    import pandas as pd
 
     freq = np.array(freq)
     s11 = np.array(s11)
@@ -187,11 +184,21 @@ def objective(trial):
         return 0.0
 
     bw, f_res = calcular_banda(solution_data)
-
+    
+    trial.set_user_attr("bw", bw)
+    trial.set_user_attr("f_res", f_res)     
+    
     f_target = 3.5
-    penalty = abs(f_res - f_target)
+    delta = abs(f_res - f_target)
 
-    score = bw - 0.5 * penalty  # peso ajustável
+    tolerancia = 0.03 
+
+    if delta > 0.15: # O casamento deve estar em uma frequência a 0.15 GHz de distância de 3.5 GHz, ou seja, de 3.35 até 3.65
+        return -9999
+
+    penalty = (delta / tolerancia)**2
+
+    score = bw - 2.0 * penalty
 
     print(
         f"Trial {trial.number} → "
@@ -203,23 +210,25 @@ def objective(trial):
     return score
 
 
-study = optuna.create_study(study_name="patch_optimization", direction="maximize", storage="sqlite:///patch_optimization.db", load_if_exists=True)
-study.optimize(objective, n_trials=20)
+study = optuna.create_study(study_name="patch_optimization", direction="maximize", storage="sqlite:///patch_optimization.db", 
+                            load_if_exists=True)
+study.optimize(objective, n_trials=10)
 
 hfss.save_project()
-hfss.release_desktop()
+hfss.release_desktop() 
 
 elapsed = time.time() - start_time
 print("Tempo total:", elapsed, "segundos")
 
-best_bw = study.best_value
+best_trial = study.best_trial
+best_score = study.best_value
 best_params = study.best_params
+best_bw = best_trial.user_attrs["bw"]
+best_f_res = best_trial.user_attrs["f_res"]
 
-print("\n" + "="*50)
-print("RESULTADO FINAL DA OTIMIZAÇÃO")
-print("="*50)
+print("RESULTADO FINAL DA OTIMIZAÇÃO\n")
 
-print(f"Melhor Bandwidth: {best_bw:.4f} GHz")
+print(f"Frequência de Ressonância: {best_f_res:.4f} GHz")
 print(f"Melhor Bandwidth: {best_bw*1000:.2f} MHz")
 
 fc = 3.5
@@ -233,7 +242,6 @@ print(f"Lpatch = {best_params['Lpatch']:.4f} mm")
 print(f"Yo     = {best_params['Yo']:.4f} mm")
 print(f"Wfeed  = {best_params['Wfeed']:.4f} mm")
 
-# Banco de Dados - SQLite
 
 conn = sqlite3.connect("patch_optimization.db")
 cursor = conn.cursor()

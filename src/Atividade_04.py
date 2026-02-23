@@ -1,11 +1,8 @@
 # Atividade 04: Visualização Avançada
-# Persistência + Critério de Parada + Gráficos
-
 import optuna
 import time
 import optuna.visualization as vis
 
-# Função objetivo (Atividade 1)
 # f(x) = x² + 6x + 5
 
 def objective(trial):
@@ -13,7 +10,6 @@ def objective(trial):
     return (x**2 + 6*x + 5)**2
 
 # Criando ou carregando estudo persistente
-
 study = optuna.create_study(
     study_name="Teste",
     direction="minimize",
@@ -57,15 +53,14 @@ fig1 = vis.plot_optimization_history(study)
 fig1.show()
 fig1.write_html(".\plot\historico_otimizacao.html")
 
-# https://optuna.readthedocs.io/en/stable/reference/visualization/generated/optuna.visualization.plot_optimization_history.html
-
 # Slice Plot
 fig2 = vis.plot_slice(study)
 fig2.show()
 fig2.write_html(".\plot\slice_plot.html")
 
-# https://optuna.readthedocs.io/en/stable/reference/visualization/generated/optuna.visualization.plot_slice.html
-
 print("\nGráficos salvos como:")
 print("- historico_otimizacao.html")
 print("- slice_plot.html")
+
+
+

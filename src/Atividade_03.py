@@ -44,3 +44,6 @@ print("f(x) =", x_best**2 + 6*x_best + 5)
 print("Trials executados nessa rodada:", trials)
 print("Total de trials acumulados no banco:", len(study.trials))
 print("Tempo de execução:", tempo_total, "segundos")
+
+
+

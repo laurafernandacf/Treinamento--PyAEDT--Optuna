@@ -26,14 +26,14 @@ hfss.modeler.model_units = "mm"
 p = hfss.modeler.primitives
 
 
-hfss["Wpatch"] = "27.66mm"
+hfss["Wpatch"] = "27.6056mm"
 hfss["Wsub"] = "Wpatch*1.5"
-hfss["Lpatch"] = "19.6mm"
+hfss["Lpatch"] = "19.2896mm"
 hfss["Lsub"] = "Lpatch*1.5"
 hfss["Hsub"] = "1.65mm"
 hfss["Slot"] = "1mm"
-hfss["Yo"] = "5.3mm"
-hfss["Wfeed"] = "2.4mm"
+hfss["Yo"] = "5.9733mm"
+hfss["Wfeed"] = "2.1000mm"
 
 
 substract = p.create_box(
