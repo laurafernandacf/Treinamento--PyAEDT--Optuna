@@ -4,7 +4,7 @@ Repositório desenvolvido no contexto de Iniciação Científica no **WAI Lab** 
 
 📍 Curso: Engenharia de Computação  
 📍 Ano: 2026  
-📍 Laboratórios: Wireless and Artificial Intelligence Lab (WAI Lab)  
+📍 Laboratório: Wireless and Artificial Intelligence Lab (WAI Lab)  
 
 ---
 
