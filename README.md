@@ -1,6 +1,6 @@
 # 🔬 Atividades Optuna – Otimização de Antenas
 
-Repositório desenvolvido no contexto de Iniciação Científica no **WAI Lab** e **RadioCom Lab**, com foco na aplicação do framework **Optuna** para otimização de problemas matemáticos e estruturas eletromagnéticas.
+Repositório desenvolvido no contexto de Iniciação Científica no **WAI Lab** e **RadioCom Lab**, com foco na aplicação do framework **Optuna** para otimização de antenas.
 
 📍 Curso: Engenharia de Computação  
 📍 Ano: 2026  
