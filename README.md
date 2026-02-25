@@ -22,9 +22,9 @@ Este repositório documenta a evolução do uso do Optuna desde problemas matem�
 Objetivo:  
 Encontrar as raízes da equação:
 
-\[
-x^2 + 6x + 5 = 0
-\]
+<p align="center">
+  <b>x<sup>2</sup> + 6x + 5 = 0</b>
+</p>
 
 Como o Optuna é um **minimizador**, a função objetivo foi estruturada para minimizar:
 \[
