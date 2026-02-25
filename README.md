@@ -90,5 +90,72 @@ Objetivo: compreender comportamento do algoritmo e influência dos parâmetros.
 
 Integrar o **PyAEDT** ao **Optuna** para maximizar a largura de banda de uma antena patch impressa com frequência central em:
 
+f₀ = 3.5 GHz
+
+---
+
+## 📡 Critérios de Projeto
+
+- Banda de operação: 2 GHz – 4 GHz
+- Critério de casamento: S11 ≤ -10 dB
+- Meta principal:  
+**Maximizar a largura de banda mantendo casamento próximo a 3.5 GHz**
+
+---
+
+## 🧩 Variáveis Utilizadas na Otimização
+
+A busca inclui obrigatoriamente:
+
+- 🔹 Variáveis Contínuas  
+- 🔹 Variáveis Discretas  
+- 🔹 Variáveis Categóricas  
+
+---
+
+## ⚠️ Estrutura da Função Objetivo
+
+Como o Optuna minimiza por padrão, foi estruturado um **score** para representar:
+
+- Maior largura de banda
+- Frequência central próxima de 3.5 GHz
+
+O estudo foi configurado para:
+direction="maximize"
+
+---
+
+## 🛠 Ajustes Técnicos Implementados
+
+Durante o desenvolvimento foram corrigidos pontos importantes:
+
+- Criação de variáveis diretamente dentro do HFSS
+- Correção da Lumped Port (integration_line)
+- Evitar abertura/fechamento repetitivo do software
+- Integração completa entre:
+  - PyAEDT
+  - HFSS
+  - Optuna
+  - SQLite
+
+---
+
+## 📊 Persistência dos Experimentos
+
+- Banco atualmente contém múltiplas geometrias testadas
+- Histórico completo salvo via SQLite
+- Validação final dos melhores resultados
+
+---
+
+## 🔄 Processo de Desenvolvimento
+
+Abaixo está o fluxo geral da otimização implementada:
+
+![Processo de Otimização](./atividade5_fluxo.png)
+
+---
+
+# 📂 Organização do Repositório
 
 
