@@ -152,10 +152,27 @@ Durante o desenvolvimento foram corrigidos pontos importantes:
 
 Abaixo está o fluxo geral da otimização implementada:
 
-![Processo de Otimização](./atividade5_fluxo.png)
+<p align="center">
+  <img src="./atividade5_fluxo.png" width="700">
+</p>
+
+# 📈 Resultados
+
+✔️ Integração bem-sucedida entre modelagem eletromagnética e otimização  
+✔️ Maximização da largura de banda  
+✔️ Resultado validado em simulação  
 
 ---
 
-# 📂 Organização do Repositório
+# 👩‍🔬 Autoria
 
+Laura F. C. Ferreira  
+Graduanda em Engenharia de Computação – 5º período  
+WAI Lab & RadioCom Lab  
+
+---
+
+# 📌 Observação
+
+Este repositório documenta a evolução técnica da aplicação de algoritmos de otimização em problemas reais de engenharia de RF, integrando inteligência artificial e modelagem eletromagnética.
 
